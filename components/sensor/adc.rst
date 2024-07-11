@@ -94,6 +94,9 @@ ESP32 pins
     * - ESP32-C3
       - GPIO0 - GPIO4
       - GPIO5
+    * - ESP32-C6
+      - GPIO0 - GPIO6
+      - 
     * - ESP32-S2
       - GPIO1 - GPIO10
       - GPIO11 - GPIO20
