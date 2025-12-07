@@ -46,6 +46,10 @@ The optimization level depends on whether PSRAM is guaranteed to be available (c
 - WiFi TX buffers: 64 dynamic buffers
 - AMPDU aggregation: Standard block acknowledgment windows
 
+## nRF52 platform
+
+nRF52 platform only supports IPv6 over Thread, no WiFi.
+
 > [!NOTE]
 > The [lwIP](https://savannah.nongnu.org/projects/lwip/) library used for the network component currently only implements IPv6 SLAAC according to [RFC4862](https://datatracker.ietf.org/doc/rfc4862/). The interface identifier (IID) is directly generated from the device MAC address.
 > This has various security and privacy implications decribed in [RFC7721](https://datatracker.ietf.org/doc/rfc7721/), as this might leak outside of the smart home network and makes the device uniquely identifiable.
